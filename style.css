@@ -1,0 +1,84 @@
+body {
+	background-image: url("http://www.mobilmusic.ru/mfile/45/26/c5/1125186.jpg");
+	background-position: cover;
+}	
+div {
+	font-family: 'Open Sans', sans-serif;
+	width: 350px;
+	margin: 100px auto;
+	background: #F2D40F;
+	box-shadow: 0 4px 8px 0px grey;
+	transition: 0.3s;
+	overflow: hidden;
+	user-select: none;
+}
+div:hover {
+	box-shadow: 0 8px 16px 1px grey;
+}
+h1 {
+	font-weight: normal;
+	font-size: 30px;
+	background: #549603;
+	margin: 0;
+	padding: 10px;
+	cursor: default;
+}
+.hspan {
+	cursor: default;
+	width: 22px;
+	height: 22px;
+	color: white;
+	float: right;
+	padding-right: 10px;
+	opacity: 0.6;
+}
+.hspan:hover {
+	opacity: 1;
+}
+input {
+	width: 100%;
+	font-size: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	display: none;
+}
+input:focus {
+	border: 2px solid #549603;
+	outline: none;
+}
+ol {
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+li {
+	border-bottom: 1px solid black;
+	padding: 5px 0px 5px 5px;
+	cursor: default;
+}
+li:hover {
+	color: grey;
+}
+li:hover span {
+	width: 40px;
+
+}
+span {
+	cursor: default;
+	float: right;
+	width: 0px;
+	height: 22px;
+	text-align: center;
+	color: white;
+	transition: width 0.2s;
+}
+span:hover {
+	color: red;
+}
+.done {
+	text-decoration: line-through;
+	color: grey;
+}
+
+
+
